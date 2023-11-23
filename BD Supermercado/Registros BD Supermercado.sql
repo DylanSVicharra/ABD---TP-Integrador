@@ -88,10 +88,10 @@ VALUES
 	(4, 'Repositor', 155000.00, 6, 2);
 	
 # Insertar registros en la tabla "productos"
-INSERT INTO productos(idProducto, nombre, fecVencimiento, precioUnitario, idProveedor, idCategoria)
+INSERT INTO productos(idProducto, nombre, fecVencimiento, precioUnitario, stock, idProveedor, idCategoria)
 VALUES
-	(1, 'Coca Cola 2.25 lts', '2024-02-02', 2300.00, 1, 1),
-	(2, 'Galletas Oreo Pack x3', '2024-03-12', 1392.95, 2, 2);
+	(1, 'Coca Cola 2.25 lts', '2024-02-02', 2300.00, 10000, 1, 1),
+	(2, 'Galletas Oreo Pack x3', '2024-03-12', 1392.95, 1200, 2, 2);
 
 # Insertar registros en la tabla "facturas"
 INSERT INTO facturas(idFactura, fecFacturacion, precioTotal, idCliente, idEmpleado, idFormaDePago)

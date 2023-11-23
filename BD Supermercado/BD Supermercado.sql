@@ -143,6 +143,7 @@ CREATE TABLE IF NOT EXISTS `supermercado`.`productos` (
   `nombre` VARCHAR(40) NOT NULL,
   `fecVencimiento` DATE NOT NULL, 
   `precioUnitario` DECIMAL(10,2) NOT NULL,
+  `stock` INT(10) NOT NULL,
   `idProveedor` INT(8) NOT NULL,
   `idCategoria` INT(4) NOT NULL, 
   PRIMARY KEY (`idProducto`),
